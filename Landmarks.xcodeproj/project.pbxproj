@@ -13,6 +13,7 @@
 		5F1FC3F627B5FAD900DF5344 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F1FC3F527B5FAD900DF5344 /* Preview Assets.xcassets */; };
 		5F1FC3FD27B608BE00DF5344 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1FC3FC27B608BE00DF5344 /* CircleImage.swift */; };
 		5F1FC3FF27B60CC300DF5344 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1FC3FE27B60CC300DF5344 /* MapView.swift */; };
+		5F44570627BF0E4800AAC350 /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F44570527BF0E4800AAC350 /* FavoriteButton.swift */; };
 		5F89170A27BB2FF00001264D /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 5F89170927BB2FF00001264D /* landmarkData.json */; };
 		5F89170C27BB306A0001264D /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F89170B27BB306A0001264D /* Landmark.swift */; };
 		5F89170E27BB343C0001264D /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F89170D27BB343B0001264D /* ModelData.swift */; };
@@ -29,6 +30,7 @@
 		5F1FC3F527B5FAD900DF5344 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5F1FC3FC27B608BE00DF5344 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		5F1FC3FE27B60CC300DF5344 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		5F44570527BF0E4800AAC350 /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		5F89170927BB2FF00001264D /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		5F89170B27BB306A0001264D /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		5F89170D27BB343B0001264D /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
@@ -85,6 +87,26 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		5F44570727BF105900AAC350 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				5F1FC3FC27B608BE00DF5344 /* CircleImage.swift */,
+				5F44570527BF0E4800AAC350 /* FavoriteButton.swift */,
+				5F1FC3FE27B60CC300DF5344 /* MapView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		5F44570827BF107800AAC350 /* Landmarks */ = {
+			isa = PBXGroup;
+			children = (
+				5F89171627BB43D50001264D /* LandmarkDetail.swift */,
+				5F89171427BB3E5D0001264D /* LandmarkList.swift */,
+				5F89171227BB3A340001264D /* LandmarkRow.swift */,
+			);
+			path = Landmarks;
+			sourceTree = "<group>";
+		};
 		5F89170F27BB38FA0001264D /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +119,9 @@
 		5F89171027BB39100001264D /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				5F1FC3FC27B608BE00DF5344 /* CircleImage.swift */,
 				5F1FC3F027B5FAD800DF5344 /* ContentView.swift */,
-				5F89171627BB43D50001264D /* LandmarkDetail.swift */,
-				5F89171427BB3E5D0001264D /* LandmarkList.swift */,
-				5F89171227BB3A340001264D /* LandmarkRow.swift */,
-				5F1FC3FE27B60CC300DF5344 /* MapView.swift */,
+				5F44570827BF107800AAC350 /* Landmarks */,
+				5F44570727BF105900AAC350 /* Helpers */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -189,6 +208,7 @@
 				5F1FC3F127B5FAD800DF5344 /* ContentView.swift in Sources */,
 				5F1FC3FF27B60CC300DF5344 /* MapView.swift in Sources */,
 				5F1FC3EF27B5FAD800DF5344 /* LandmarksApp.swift in Sources */,
+				5F44570627BF0E4800AAC350 /* FavoriteButton.swift in Sources */,
 				5F89171527BB3E5D0001264D /* LandmarkList.swift in Sources */,
 				5F89171727BB43D50001264D /* LandmarkDetail.swift in Sources */,
 				5F1FC3FD27B608BE00DF5344 /* CircleImage.swift in Sources */,
