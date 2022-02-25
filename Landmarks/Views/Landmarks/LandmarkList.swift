@@ -30,7 +30,7 @@ struct LandmarkList: View {
     }
     
     var title: String {
-        let title = filter == .all ? "Landmarks:" : filter.rawValue
+        let title = filter == .all ? "Landmarks" : filter.rawValue
         return showFavoritesOnly ? "Favorite \(title)" : title
     }
     
