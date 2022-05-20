@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F00F8852837E48E006228F4 /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 5F00F8842837E48E006228F4 /* LICENSE.txt */; };
 		5F02D17727C523A700CEA2B6 /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F02D17627C523A700CEA2B6 /* PageControl.swift */; };
 		5F1A15D827C4AF1000735BF4 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1A15D727C4AF1000735BF4 /* PageViewController.swift */; };
 		5F1A15DA27C4B24300735BF4 /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F1A15D927C4B24300735BF4 /* FeatureCard.swift */; };
@@ -130,6 +131,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5F00F8842837E48E006228F4 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		5F02D17627C523A700CEA2B6 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		5F1A15D727C4AF1000735BF4 /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		5F1A15D927C4B24300735BF4 /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
@@ -215,6 +217,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F00F8832837E48E006228F4 /* LICENSE */ = {
+			isa = PBXGroup;
+			children = (
+				5F00F8842837E48E006228F4 /* LICENSE.txt */,
+			);
+			path = LICENSE;
+			sourceTree = "<group>";
+		};
 		5F1A15D627C4AEF100735BF4 /* PageView */ = {
 			isa = PBXGroup;
 			children = (
@@ -233,6 +243,7 @@
 				5FFCC53527C54D8F007D7DE1 /* WatchLandmarks */,
 				5FFCC54027C54D90007D7DE1 /* WatchLandmarks WatchKit Extension */,
 				5FBA555C27C5C82D005E697F /* MacLandmarks */,
+				5F00F8832837E48E006228F4 /* LICENSE */,
 				5F1FC3EC27B5FAD800DF5344 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -504,7 +515,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1320;
-				LastUpgradeCheck = 1320;
+				LastUpgradeCheck = 1330;
 				TargetAttributes = {
 					5F1FC3EA27B5FAD800DF5344 = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -549,6 +560,7 @@
 				5F2F442527C04C8A00C6C406 /* hikeData.json in Resources */,
 				5F1FC3F627B5FAD900DF5344 /* Preview Assets.xcassets in Resources */,
 				5F1FC3F327B5FAD900DF5344 /* Assets.xcassets in Resources */,
+				5F00F8852837E48E006228F4 /* LICENSE.txt in Resources */,
 				5F89170A27BB2FF00001264D /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -737,7 +749,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -792,7 +804,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -866,6 +878,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = MacLandmarks/MacLandmarks.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -895,6 +908,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = MacLandmarks/MacLandmarks.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
