@@ -1,0 +1,4 @@
+# Landmarks
+In early 2022, I worked through Apple's [Introducing SwiftUI](https://developer.apple.com/tutorials/swiftui) tutorial to refresh my understanding prior to undertaking the larger [Develop Apps for iOS](https://developer.apple.com/tutorials/app-dev-training/) course. The tutorial involves building the list-detail app [Landmarks](https://developer.apple.com/tutorials/swiftui/creating-and-combining-views) in SwiftUI, initially targeting iOS and iPadOS, and later adapting it for watchOS and macOS. 
+
+All code in **Landmarks** was entered in the process of working through the tutorial, and the app icon was added from a download as instructed.
